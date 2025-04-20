@@ -1,0 +1,131 @@
+/* Reset default React styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #001f3f, #003366); /* keeps it consistent */
+}
+
+
+/* Page wrapper */
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #001f3f, #003366); /* Navy blue gradient */
+  color: white;
+}
+
+/* Header with logo and welcome text */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 0.75rem;
+}
+
+/* Logo icon next to heading */
+.logo {
+  height: 62px;
+  width: 62px;
+  object-fit: contain;
+}
+
+.welcome-banner {
+  background-color: #cce7ff; /* light blue */
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.login-card {
+  background-color: #7e91e2; /* soft pastel pink */
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 500px; /* match welcome banner width */
+  max-width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #001f3f;
+  text-align: left;
+}
+
+.login-form {
+  text-align: left;          /* aligns labels and inputs left */
+  margin-top: 1rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+ /* RECIPE PAGE */
+.recipe-list-wrapper {
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.recipe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.recipe-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 250px;
+  color: #001f3f;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+
+ /* NAVBAR */
+ .navbar {
+  background-color: #cce7ff; /* light pastel blue */
+  padding: 1rem 2rem;
+  border-radius: 0 0 0px 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  color: #001f3f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
